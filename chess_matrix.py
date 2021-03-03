@@ -1,5 +1,4 @@
 '''Chess matrix'''
-"""version3.0"""
 
 n_cell = 8
 chess_board = [ [' ' for j in range(n_cell)] for i in range(n_cell)]
@@ -15,4 +14,3 @@ for line in chess_board:
         steam_cell = not steam_cell
     print()
 
-    '''modifie'''
