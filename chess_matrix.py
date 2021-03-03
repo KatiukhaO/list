@@ -14,3 +14,5 @@ for line in chess_board:
     if n_cell % 2 != 1:
         steam_cell = not steam_cell
     print()
+
+    '''modifie'''
