@@ -1,4 +1,5 @@
 '''Chess matrix'''
+"""version2.0"""
 
 n_cell = 8
 chess_board = [ [' ' for j in range(n_cell)] for i in range(n_cell)]
