@@ -16,4 +16,4 @@ for line in chess_board:
     print()
 
     '''modifie'''
-    prini('tEST branch')
+    print('TestBranch')
