@@ -20,7 +20,7 @@ print(sum(s), min(s), max(s))
 должна принимать список.'''
 
 from random import random, randint
-from math import ceil
+from math import
 
 def print_list(array, len_part = 10):
     i = 0
