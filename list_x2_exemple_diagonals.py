@@ -71,5 +71,39 @@ for line in list_:
     print()
 
 
+""" Поменять две диагонали
+Дан квадратный массив. Поменяйте местами элементы, стоящие на главной и побочной диагонали, 
+при этом каждый элемент должен остаться в том же столбце (то есть в каждом столбце нужно поменять
+местами элемент на главной диагонали и на побочной диагонали).
+Решение оформите в виде функции SwapDiagonals (A)
+
+
+Ввод	
+3
+1 2 3
+4 5 6
+7 8 9
+
+Вывод
+7 2 9
+4 5 6
+1 8 3
+
+"""
+
+def change_diagonals(array):
+    for i in range(len(array)):
+        array[i][i], array[len(array) - 1 - i][i] = array[len(array) - 1 - i][i], array[i][i]
+    return array
+
+n = int(input())
+a = [[int(num) for num in input().split()] for i in range(n)]
+
+a = change_diagonals(a)
+for row in a:
+    print(' '.join(map(str, row)), end=' ')
+    print()
+
+
 
 
